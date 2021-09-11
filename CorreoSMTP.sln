@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CorreoSMTP", "CorreoSMTP\CorreoSMTP.csproj", "{4CD2C196-5DFC-4710-B9C3-A534EFC4540D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CD2C196-5DFC-4710-B9C3-A534EFC4540D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CD2C196-5DFC-4710-B9C3-A534EFC4540D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CD2C196-5DFC-4710-B9C3-A534EFC4540D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CD2C196-5DFC-4710-B9C3-A534EFC4540D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA7EFD6C-A7A8-4D2E-B062-07295AF89EB7}
+	EndGlobalSection
+EndGlobal

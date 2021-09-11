@@ -1,0 +1,25 @@
+﻿<Window x:Class="CorreoSMTP.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CorreoSMTP"
+        mc:Ignorable="d"
+        Title="Redactar Correo" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="7*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Destinatario:" HorizontalAlignment="Left" Margin="52,58,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <TextBox x:Name="txt_destinatario" HorizontalAlignment="Left" Height="23" Margin="161,64,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="557" Grid.ColumnSpan="2"/>
+        <Label Content="Mensaje:" HorizontalAlignment="Left" Margin="52,152,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <TextBox x:Name="txt_cuerpo" HorizontalAlignment="Left" Height="175" Margin="52,186,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="666" Grid.ColumnSpan="2"/>
+        <Button x:Name="btnEnviarCorreo" Content="Enviar" HorizontalAlignment="Left" Margin="27,366,0,0" VerticalAlignment="Top" Width="75" Grid.Column="1" Click="btnEnviarCorreo_Click"/>
+        <Label x:Name="lb_Usuario" Content="" HorizontalAlignment="Left" Margin="161,26,0,0" VerticalAlignment="Top" Width="208"/>
+        <Label Content="Usuario" HorizontalAlignment="Left" Margin="52,23,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
+        <Label Content="Asuinto: " HorizontalAlignment="Left" Margin="52,119,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16"/>
+        <TextBox x:Name="txt_asunto" HorizontalAlignment="Left" Height="23" Margin="148,127,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="570" Grid.ColumnSpan="2"/>
+
+    </Grid>
+</Window>
