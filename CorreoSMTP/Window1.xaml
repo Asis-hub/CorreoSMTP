@@ -18,7 +18,7 @@
         <Button x:Name="btnEnviarCorreo" Content="Enviar" HorizontalAlignment="Left" Margin="27,366,0,0" VerticalAlignment="Top" Width="75" Grid.Column="1" Click="btnEnviarCorreo_Click"/>
         <Label x:Name="lb_Usuario" Content="" HorizontalAlignment="Left" Margin="161,26,0,0" VerticalAlignment="Top" Width="208"/>
         <Label Content="Usuario" HorizontalAlignment="Left" Margin="52,23,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
-        <Label Content="Asuinto: " HorizontalAlignment="Left" Margin="52,119,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16"/>
+        <Label Content="Asunto: " HorizontalAlignment="Left" Margin="52,119,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16"/>
         <TextBox x:Name="txt_asunto" HorizontalAlignment="Left" Height="23" Margin="148,127,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="570" Grid.ColumnSpan="2"/>
 
     </Grid>
