@@ -25,63 +25,8 @@ namespace CorreoSMTP
             InitializeComponent();
         }
 
-
-        public static string getPassword()
-        {
-            return "";
-        }
-
-
-        public static string getPassword()
-        {
-            return "";
-        }
-
-
-        public static string getPassword()
-        {
-            return "";
-        }
-
-
-        public static string getPassword()
-        {
-            return "";
-        }
-
-
-        public static string getPassword()
-        {
-            return "";
-        }
-
-
-        public static string getPassword()
-        {
-            return "";
-        }
-
-
-        public static string getPassword()
-        {
-            return "";
-        }
-
-
-        public static string getPassword()
-        {
-            return "";
-        }
-
-
-        public static string getPassword()
-        {
-            return "";
-        }
-
         private void btn_Enviar_Click(object sender, RoutedEventArgs e)
         {
-        // Envíar datos de entrada al nuevo xaml.
             String correoUsuario = txt_correo.Text;
             String password = txt_password.Password;
             Window1 ventanaCorreo = new Window1();
