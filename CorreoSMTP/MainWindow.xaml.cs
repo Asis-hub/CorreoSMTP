@@ -25,16 +25,6 @@ namespace CorreoSMTP
             InitializeComponent();
         }
 
-        private static string getNombreUsuario()
-        {
-            return "";
-        }
-
-        public static string getPassword()
-        {
-            return "";
-        }
-
         private void btn_Enviar_Click(object sender, RoutedEventArgs e)
         {
             String correoUsuario = txt_correo.Text;
