@@ -24,6 +24,8 @@ namespace CorreoSMTP
         {
             InitializeComponent();
             string prueba = "Prueba git"
+            string pruebaDos = "Segunda Prueba git"
+            
         }
 
 
